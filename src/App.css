@@ -26,7 +26,8 @@ body{
   margin: 0 auto;
   padding: 2rem;
   max-width: 1360px;
-  margin-bottom: 4rem;
+  
+  margin-bottom: 10rem;
 }
 
 /* NAVIGATION BAR */
@@ -136,9 +137,7 @@ body{
 }
 
 /* SUPPORTME SECTION */
-.support-section{
-  margin-bottom: 10rem;
-}
+
 
 
 
