@@ -26,9 +26,7 @@ body{
   margin: 0 auto;
   padding: 2rem;
   max-width: 1360px;
-
-  /* Delete when add more content */
-  margin-bottom: 10rem;
+  margin-bottom: 4rem;
 }
 
 /* NAVIGATION BAR */
@@ -135,6 +133,11 @@ body{
   background-color: #fff;
   color: #588157;
   margin: 0 auto;
+}
+
+/* SUPPORTME SECTION */
+.support-section{
+  margin-bottom: 10rem;
 }
 
 

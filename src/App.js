@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import TestCard from './components/TestCard';
 import Footer from './components/Footer';
+import SupportMe from './components/SupportMe';
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
           title="DISCORD"
           description='Dołącz do społeczności i wymieniaj się doświadczeniem.' />
       </div>
+      <SupportMe />
       <Footer />
     </div>
   );
