@@ -27,7 +27,7 @@ body{
   padding: 2rem;
   max-width: 1360px;
   
-  margin-bottom: 10rem;
+  margin-bottom: 17rem;
 }
 
 /* NAVIGATION BAR */
@@ -70,6 +70,12 @@ body{
 .navbar-contact:hover{
   color: #344e41;
   background-color: #a3b18a;
+}
+
+.fabars-icon{
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
 }
 
 /* NEXT SECTION */
@@ -194,6 +200,15 @@ body{
 
   .news-box{
     grid-column: 1 / 4;
+  }
+
+  .navbar-login,
+  .navbar-contact{
+    display: none;
+  }
+
+  .fabars-icon{
+    display: block;
   }
 }
 

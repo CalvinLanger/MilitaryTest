@@ -1,29 +1,24 @@
 import React from 'react';
+import { FaBars } from 'react-icons/fa';
 
-function login() {
-    alert('Login');
-}
 
-function contact() {
-    alert('hello world');
-}
-
-function Navbar() {
+function Navbar(props) {
     return (
         <div className='nav-bar'>
             <div className='navbar-logo'>
                 TESTYWOJSKOWE.PL
             </div>
             <div className='navbar-menu'>
-                <div className='navbar-login' onClick={login}>
+                <div className='navbar-login' onClick={props.login}>
                     Zaloguj
                 </div>
-                <div className='navbar-contact' onClick={contact}>
+                <div className='navbar-contact' onClick={props.contact}>
                     Kontakt
                 </div>
+                <FaBars className='fabars-icon' />
             </div>
         </div>
     );
-}
+};
 
 export default Navbar;

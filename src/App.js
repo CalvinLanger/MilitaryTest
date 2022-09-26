@@ -5,10 +5,19 @@ import Footer from './components/Footer';
 import SupportMe from './components/SupportMe';
 
 
+function toLogin() {
+  alert('Login');
+}
+
+function toContact() {
+  alert('hello world');
+}
+
+
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Navbar contact={toContact} login={toLogin} />
       <div className='container'>
         <div className='news-box'>
           <h1>
@@ -23,7 +32,8 @@ function App() {
         </div>
         <TestCard
           title="MONO test"
-          description="Generator testów ogólnowojskowych. Egzaminy na szkoły podoficerskie" />
+          description="Generator testów ogólnowojskowych. Egzaminy na szkoły podoficerskie"
+        />
         <TestCard
           title="Własne testy"
           description='Testy tworzone przez użytkowników z wiedzy wszelakiej' />
