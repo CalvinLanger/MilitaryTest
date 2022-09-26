@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import TestCard from './components/TestCard';
 import Footer from './components/Footer';
 import SupportMe from './components/SupportMe';
+import Contact from './components/Contact';
 
 
 function toLogin() {
@@ -47,6 +48,7 @@ function App() {
           title="DISCORD"
           description='Dołącz do społeczności i wymieniaj się doświadczeniem.' />
       </div>
+      <Contact />
       <SupportMe />
       <Footer />
     </div>
