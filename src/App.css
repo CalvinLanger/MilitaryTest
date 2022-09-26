@@ -257,6 +257,10 @@ body{
    .news-box{
     grid-column: 1 / 3;
   }
+
+  .footer{
+    position: relative;
+  }
 }
 
 @media only screen and (max-width: 443px) {
