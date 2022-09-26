@@ -5,7 +5,7 @@ import { FaBars } from 'react-icons/fa';
 function Navbar(props) {
     return (
         <div className='nav-bar'>
-            <div className='navbar-logo'>
+            <div className='navbar-logo' onClick={props.mainPage}>
                 TESTYWOJSKOWE.PL
             </div>
             <div className='navbar-menu'>
